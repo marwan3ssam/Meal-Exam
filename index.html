@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="bg-black">
+    <header class="d-flex">
+        <div class="side-nav  min-vh-100 top-0 d-flex text-light">
+            <div class="nav-tab min-vh-100  bg-black bg-gradient">
+                <div class="list pt-4 overflow-hidden ">
+                    <ul>
+                        <li onclick="showSearchInputs()" class="search py-2">Search</li>
+                        <li onclick="getCategoryData()" class="py-2" id="Categories">Categories</li>
+                        <li onclick="getArea()" class="py-2">Area</li>
+                        <li onclick="getIngredients()" class="py-2">Ingredients</li>
+                        <li onclick="displayContacts()" class="contact-us py-2">Contact Us</li>
+                    </ul>
+                </div>
+                <div class="social-icons text-light ps-4">
+
+                    <i class="fab fa-facebook-f fa-fw"></i>
+                    <i class="fab fa-twitter fa-fw"></i>
+                    <i class="fa-solid fa-globe"></i>
+                    <div class="footer">
+                        Copyright Â© 2019 All Rights Reserved.
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class=" nav-header d-flex justify-content-between px-2 py-4 bg-white text-black text-center flex-column">
+                <img src="./imgs/logo.png" alt="">
+                <i class=" open fa-solid open-close-icon fa-2x fa-2 fa-align-justify"></i>
+                <div class="icons">
+                    <i class="fa-solid fa-globe d-block"></i>
+                    <i class="fa-solid fa-share-nodes"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container">
+            <div class="row gy-3 py-3" id="rowData">
+
+            </div>
+
+
+
+        </div>
+        </div>
+        <div class="container w-75" id="search-container">
+
+
+        </div>
+        </div>
+        <div id="contact">
+            <div class="container w-75 text-center">
+
+            </div>
+        </div>
+
+        </div>
+
+
+
+
+    </header>
+
+
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

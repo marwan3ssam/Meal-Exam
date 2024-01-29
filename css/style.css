@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.side-nav {
+    z-index: 999;
+    position: fixed;
+    left: -255px;
+}
+
+.side-nav .nav-header .open {
+    cursor: pointer;
+}
+
+
+.side-nav .list ul li {
+    cursor: pointer;
+    position: relative;
+
+}
+
+.side-nav .social-icons {
+    padding-top: 280px;
+
+}
+
+.side-nav .social-icons i {
+    cursor: pointer;
+
+}
+
+.side-nav .nav-header {
+    width: 70px;
+    ;
+
+}
+
+.side-nav .nav-header img {
+    width: 100%;
+}
+
+.side-nav .nav-header .icons {
+    cursor: pointer;
+}
+
+#search-container {
+    position: absolute;
+    top: 10px;
+    left: 320px;
+    z-index: 99;
+}
+
+#contact {
+    position: absolute;
+    top: 40%;
+    left: 150px;
+    display: none;
+
+}
+
+.meal-img {
+    position: relative;
+}
+
+#rowData .meal .meal-layer {
+    /* display: none; */
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: #f9f6f6ca;
+    position: absolute;
+    transition: all 0.5s;
+}
+
+#rowData .meal:hover .meal-layer {
+    top: 0%;
+}
+
+#rowData .meal {
+    cursor: pointer;
+}
+
+#rowData .area {
+    cursor: pointer;
+}
+
+#rowData .ingredients {
+    cursor: pointer;
+}
